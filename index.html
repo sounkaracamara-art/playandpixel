@@ -785,34 +785,46 @@
         </div>
       </section>
 
-      <!-- CONTACT -->
-      <section id="contact" class="section contact">
-        <h2 class="section-title" id="contact-title-text">Contactez-nous</h2>
-        <form class="contact-form" id="contact-form">
-          <div class="form-row" style="display:flex; gap:20px; width:100%; flex-wrap:wrap;">
-            <div class="form-group" style="flex:1 1 200px;">
-              <label for="firstname">Prénom</label>
-              <input type="text" id="firstname" name="firstname" required>
-            </div>
-            <div class="form-group" style="flex:1 1 200px;">
-              <label for="lastname">Nom</label>
-              <input type="text" id="lastname" name="lastname" required>
-            </div>
-          </div>
-          <div class="form-group">
-            <label for="email">Email</label>
-            <input type="email" id="email" name="email" required>
-          </div>
-          <div class="form-group">
-            <label for="company">Entreprise</label>
-            <input type="text" id="company" name="company">
-          </div>
-          <div class="form-group">
-            <label for="project">Décrivez votre projet</label>
-            <textarea id="project" name="project" rows="5" required></textarea>
-          </div>
-          <button type="submit" class="submit-btn">Envoyer</button>
-        </form>
+     <!-- CONTACT -->
+<section id="contact" class="section contact">
+  <h2 class="section-title" id="contact-title-text">Contactez-nous</h2>
+
+  <form class="contact-form" id="contact-form"
+        action="mailto:tonemail@example.com"
+        method="post"
+        enctype="text/plain">
+
+    <div class="form-row">
+      <div class="form-group">
+        <label for="firstname">Prénom</label>
+        <input type="text" id="firstname" name="firstname" required>
+      </div>
+
+      <div class="form-group">
+        <label for="lastname">Nom</label>
+        <input type="text" id="lastname" name="lastname" required>
+      </div>
+    </div>
+
+    <div class="form-group">
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" required>
+    </div>
+
+    <div class="form-group">
+      <label for="company">Entreprise</label>
+      <input type="text" id="company" name="company">
+    </div>
+
+    <div class="form-group">
+      <label for="project">Décrivez votre projet</label>
+      <textarea id="project" name="project" rows="5" required></textarea>
+    </div>
+
+    <button type="submit" class="submit-btn">Envoyer</button>
+  </form>
+</section>
+
 
         <div class="goodbye-block">
           <img src="groupe5.png" 
@@ -853,3 +865,4 @@
   </div>
 </body>
 </html>
+
