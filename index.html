@@ -496,13 +496,15 @@
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
-  align-items: stretch !important;  /* 🔥 corrige enfin la largeur */
+  align-items: stretch !important;  
 }
 
-/* Tous les éléments du formulaire prennent la même largeur */
-.contact-form > * {
+
+.contact-form .form-row,
+.contact-form .form-group {
   width: 100%;
 }
+
 
 
     .form-row {
@@ -931,6 +933,7 @@
   </div>
 </body>
 </html>
+
 
 
 
