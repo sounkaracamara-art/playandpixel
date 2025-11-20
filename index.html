@@ -490,20 +490,20 @@
       text-align: center;
       padding: 5rem 2rem 3rem;
     }
+.contact-form {
+  max-width: 800px;
+  margin: 0 auto 20rem auto !important;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  align-items: stretch !important;  /* 🔥 corrige enfin la largeur */
+}
 
-    .contact-form {
-      max-width: 800px;
-      margin: 0 auto 20rem auto;
-      display: flex;
-      flex-direction: column;
-      gap: 1.5rem;
-      align-items: center !important;
-    }
-
-    .contact-form > .form-row,
-.contact-form > .form-group {
+/* Tous les éléments du formulaire prennent la même largeur */
+.contact-form > * {
   width: 100%;
 }
+
 
     .form-row {
       display: flex;
@@ -931,6 +931,7 @@
   </div>
 </body>
 </html>
+
 
 
 
